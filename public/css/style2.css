@@ -1,0 +1,294 @@
+.navbar{
+	min-height: 80px;
+}
+.navbar-brand h4{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.navbar-brand span{
+	color: #ff9900;
+}
+.nav-link p{
+	margin-top: 10px;
+	color: #000;
+	text-transform: uppercase;
+	transition: .5s;
+}
+.nav-link2 p:hover, .nav-link2 p.active{
+	color: #ff9900;
+}
+.nav-link2:after{
+	content: '';
+	transition: 0.6s;
+	display: block;
+	width: 0;
+	height: 2px;
+	background: #ff9900 ;
+	margin-top: -10px;
+}
+.nav-link2:hover:after{
+	width: 100%;
+}
+.upper{
+	margin-top: 7rem;
+}
+#header{
+	height: 400px;
+}
+.team{
+	height: 345px;
+	right:  12%;
+	border-radius: 10px;
+	top: 7rem;
+	background-color: rgba(0,0,0,.58);
+}
+.middle{
+	min-height: 220px;
+	margin-top: 4.5rem;
+	background-color: #f5f5f5;
+}
+.lab{
+	text-transform: uppercase;
+	color: #ff9900;
+	font-size: 30px;
+	font-weight: bold;
+}
+.main{
+	max-height: auto;
+}
+.avail{
+	font-size: 30px;
+	font-weight: bold;
+}
+.avail:after{
+	content: '';
+	display: block;
+	background: #000;
+	width: 100%;
+	height: 2px;
+}
+.cardEl{
+	width: 171px;
+	background-color: #fff;
+	height: 171px;
+	box-shadow: 0px 3px 6px 1px rgba(112,112,112,1);
+	border-radius: 50%;
+	transition: .5s;
+}
+.cardEl:hover{
+	background-color: #ff9900;
+}
+.card-2{
+	width: 600px;
+	background-color: #fff;
+	height: auto;
+	min-height: 270px;
+	box-shadow: 0px 3px 6px 1px rgba(112,112,112,1);
+	border-radius: 10px;
+}
+#pinjam, #pinjam2, #pinjamKomputer, #pinjamKomputer2, #belanjaBarang, #belanjaBarang2{
+	display: none;
+}
+.cardEl img,
+.card-2 img{
+	width: 50px;
+	height: 50px;
+	margin-top: 3rem;
+}
+.cardWrap{
+	margin-bottom: 10rem;
+}
+.contact{
+	min-height: 400px;
+}
+.send{
+	background-color: #ff9900;
+	color: #fff;
+	width: 100%;
+}
+
+/*footer*/
+.footer2{
+	margin-top: 50px;
+	width: 100%;
+	height: 200px;
+	background: #ff9900;
+}
+
+.wrapper label{
+	color: #000;
+	font-family: 'Sniglet', cursive;
+	letter-spacing: 1px;
+	font-size: 20px;
+	font-weight: 500;
+	margin-left: 10px;
+}
+
+.wrapper .button{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 0 5px;
+	background: #fff;
+	border-radius: 50px;
+	box-shadow: 0 10px 10px rgba(0,0,0, 0.1);
+	cursor: pointer;
+	margin-top: .5rem;
+	margin-bottom: 2.5rem;
+	transition: all 0.5s ease-out;
+	overflow: hidden;
+}
+
+.wrapper .button:nth-child(1):hover .icon{
+	color: #1877f2;
+	background: #1877f2;
+}
+
+.wrapper .button:nth-child(2):hover .icon{
+	color: #1da1f2;
+	background: #1da1f2;
+}
+
+
+.wrapper .button:nth-child(3):hover .icon{
+	color: #ea4c89;
+	background: #ea4c89;
+}
+
+.wrapper .button .icon{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	line-height: 50px;
+	box-sizing: border-box;
+	text-align: center;
+	transition: all 0.5s ease-out;
+}
+
+.wrapper .button .icon i{
+	color: #000;
+	font-size: 20px;
+	line-height: 50px;
+	transition: 0.5s;
+}
+
+.wrapper .button:hover .icon i{
+	color: #fff;
+}
+
+.wrapper .button:hover{
+	width: 200px;
+}
+
+.container{
+	max-width: 80%;
+	height: 100%;
+	position: relative;
+}
+
+.container .left-side h3,
+.container .right-side h3{
+	color: #fff;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 30px;
+}
+
+.container .left-side p,
+.container .right-side p{
+	font-size: 12px;
+	margin-left: 42px;
+	letter-spacing: 2px;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+}
+.point{
+	cursor: pointer;
+}
+.no-mt{
+	margin-top: 0;
+}
+.card-info{
+	width: 100%;
+	min-height: 150px;
+	background-color: #fff;
+	border-radius: 20px;
+	box-shadow: 0px 3px 6px 1px rgba(112,112,112,1);
+}
+.wrapInfo{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: #fff;
+}
+.infoText{
+	font-size: 40px;
+	color: #707070;
+	text-transform: uppercase;
+	line-height: 90px;
+}
+.theTable{
+	transition: .5s;
+}
+#teachTable, #studentTable{
+	min-height: 0;
+}
+#card-siswa.active, #card-guru.active{
+	color: #ff9900;
+}
+.infoText.act{
+	color: #ff9900;
+}
+.back-to-top{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	padding: 5px;
+	background-color: #FF7800;
+	font-size: 25px;
+	position: fixed;
+	bottom: 3rem;
+	/*opacity: 0;*/
+	display: none;
+	right: 1rem;
+	text-align: center;
+	cursor: pointer;
+	z-index: 999;
+	color: #fff;
+}
+.wrapGuru, .wrapGuru2, .wrapSiswa2, .wrapSiswa{
+	display: none;
+}
+.pinjamBarang:hover, .pinjamBarang.active, .pinjamBarang2:hover, .pinjamBarang2.active, 
+.pinjamBarang3.active, .pinjamBarang3:hover
+{
+	border: 1px solid #007bff;
+	box-shadow: 0px 3px 6px 1px rgba(0, 123, 255, .9);	
+}
+.mt-2-in-md{
+	margin-top: 1rem;
+}
+@media (max-width: 768px){
+	.none-in-md{
+		display: none;
+	}
+	.lab{
+		font-size: 25px;
+	}
+	.right-side{
+		display: none;
+	}
+	.wrapper{
+		display: none;
+	}
+	#header{
+		height: 300px;
+	}
+	.mt-2-in-md{
+		margin-top: .3rem;
+	}
+}
